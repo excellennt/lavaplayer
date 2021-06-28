@@ -176,6 +176,10 @@ public class DefaultYoutubeTrackDetailsLoader implements YoutubeTrackDetailsLoad
       }
     }
 
+        return unplayableReason;
+  }
+
+
   protected JsonBrowser loadTrackInfoFromMainPage(HttpInterface httpInterface, String videoId) throws IOException {
     String url = "https://www.youtube.com/watch?v=" + videoId + "&pbj=1&hl=en";
 
