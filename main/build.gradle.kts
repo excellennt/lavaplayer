@@ -4,8 +4,8 @@ plugins {
   `maven-publish`
 }
 
-val moduleName = "lavaplayer"
-version = "1.3.77"
+val moduleName = "lavaplayer-fork"
+version = "1.3.78"
 
 dependencies {
   api("com.sedmelluq:lava-common:1.1.2")
